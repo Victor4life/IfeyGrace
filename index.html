@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IfeyGrace</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo2.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="style.css"
+      rel="
+        stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="text-warning">IfeyGrace</span>Global</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="store.html">STORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact"
+                >CONTACT</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                SERVICES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="portfolio.html"
+                    >CONSULTATION</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="installation.html"
+                    >INSTALLATION</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="construction.html"
+                    >GENERAL CONSTRUCTION</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--CAROUSEL-->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider3.jpg" class="d-block w-100" alt="Action" />
+          <div class="carousel-caption">
+            <h1>
+              SOLAR AND <span class="text-warning">ELECTRICAL</span> INSTALLATION
+            </h1>
+            <p>
+              Some representative placeholder content for the first slide.Some
+              representative placeholder content for the second slide.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/cctv-slider2.jpg" class="d-block w-100" alt="Action" />
+          <div class="carousel-caption">
+            <h1>
+              AIR CONDITIONER <span class="text-warning">AND</span><br />
+              CCTV INSTALLATION
+            </h1>
+            <p>
+              Some representative placeholder content for the second slide.Some
+              representative placeholder content for the second slide.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/con-slider.jpg" class="d-block w-100" alt="Action"/>
+          <div class="carousel-caption">
+            <h1>
+              SALES OF <span class="text-warning">INSTALLATION</span> MATERIALS
+            </h1>
+            <p>
+              Some representative placeholder content for the third slide.Some
+              representative placeholder content for the second slide.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--ABOUT SECTION-->
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="about-img">
+              <img src="img/construction-slider.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <div class="bg-warning sv"></div>
+              <h2>
+                ABOUT IFEYGRACE ELECTROMEC GLOBAL
+              </h2>
+              <p>
+                IfeyGrace Electromec Global is a premier provider of sustainable energy solutions, construction, and consultation services. Specializing in solar installation, air conditioner installation, and construction projects, our team of certified technicians and engineers are dedicated to delivering top-quality, innovative solutions to meet the unique needs of our clients.<br>
+
+              With a focus on renewable energy and eco-friendly practices, IfeyGrace Electromec Global is committed to reducing carbon footprints and promoting a more sustainable future. Our expert consultants offer personalized advice and support to help clients make informed decisions about their energy needs and construction projects.
+              <h4>Our Vision</h4>
+              <ul>
+                <li>
+                  To contribute to the constrution and electricity development
+                  in Nigeria
+                </li>
+                <li>
+                  To deliver quality andreliable products and services to
+                  customers
+                </li>
+                <li>
+                  To abide to the laws guiding the construction and electrical
+                  industry
+                </li>
+                <li>
+                  To advance the construction and electricity supply in Nigeria.
+                </li>
+                <li>
+                  To assist young ambitious youth to grow in the sector of
+                  construction and electricity
+                </li>
+              </ul>
+              <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                <i class="bi bi-facebook text-dark mx-1"></i>
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+                <i class="bi bi-instagram text-dark mx-1"></i>
+                <i class="bi bi-whatsapp text-dark mx-1"></i>
+                <i class="bi bi-phone text-dark mx-1"></i>
+              </p>
+              <a href="#" class="btn btn-warning">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES SECTION-->
+
+    <section id="services" class="services section-padding grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+            <h2>Our Services</h2>
+              <div
+                class="bg-warning sv style1"
+              ></div><br>
+              <p>
+                Looking for a reliable company to handle your next project?<br> We got you covered at IfeyGrace Electromec Global. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-calendar2-date-fill text-warning"></i>
+                <h3 class="card-title">Consultation</h3>
+                <p class="lead">
+                At IFEYGRACE ELECROMEC GLOBAL our consultation services are designed to help businesses navigate the complex and ever-changing landscape of their industry. With our team of experienced consultants, we offer personalized guidance and strategic solutions to help our clients achieve their goals and success.                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-backpack4-fill text-warning"></i>
+                <h3 class="card-title">Installation</h3>
+                <p class="lead">
+                At IFEYGRACE ELECROMEC GLOBAL, we are dedicated to providing top-notch services for all of your solar, air conditioning, and CCTV installation needs. We have a team of highly trained professionals who are experts in their field and committed to delivering the highest quality workmanship.                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-boxes text-warning"></i>
+                <h3 class="card-title">General Construction</h3>
+                <p class="lead">
+Our general construction services encompass a wide range of projects, from residential to commercial developments. With a team of skilled professionals and decades of experience in the industry, we are committed to delivering high-quality construction projects that exceed our clients' expectations.                </p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--WORK SECTION-->
+
+    <section id="portfolio" class="portfolio section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Our Projects</h2>
+              <div
+                class="bg-warning sv style1"
+              ></div><br>
+              <p>
+                Great Projects handled by Us at IfeyGrace Electromec Global.<br> Contact us for your next Project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/pic2.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Installation</h3>
+                <p class="lead">
+                  We are dedicated to providing top-notch services for all of your solar, air conditioning, and CCTV installation needs.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/work4.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Construction</h3>
+                <p class="lead">
+                 Our general construction services encompass a wide range of projects, from residential to commercial developments.                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/about2.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Solar Installation</h3>
+                <p class="lead">
+                 When it comes to our solar installation, we offer a range of options to suit your specific needs and your allocated budget.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--SECOND ROW-->
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/cctv.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">CCTV Installation</h3>
+                <p class="lead">
+                 We also offer CCTV installation services to help you protect your home or business. We can handle the job with professionalism.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/work2.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Installation Materials</h3>
+                <p class="lead">
+                  We also sell Installation Materials at affordable prices and longer duration. We also sell Installation Materials at affordable prices and longer duration.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="img/consultation3.jpg" alt="" class="img-fluid" />
+                </div>
+                <h3 class="card-title">Construction</h3>
+                <p class="lead">
+                Our general construction services encompass a wide range of projects, from residential to commercial developments.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--STORE SECTION-->
+
+    <section id="store" class="store section-padding grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>What's Trending</h2>
+              <div
+                class="bg-warning sv style1"
+              ></div><br>
+              <p>Visit Our Store For More</p>
+        </div>
+          <div class="row">
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/battery7.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+                    <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/battery3.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/battery4.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/battery5.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/solar.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+                    <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/solar1 (1).jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/solar1 (2).jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+          <div class="col-lg-3 text-center">
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body mb-4">
+                <img src="img/solar1 (3).jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <h6>Inverter</h6>
+            <p>#36,000</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="d-grid col-md-2 mx-auto margin">
+            <button class="btn1 btn-warning btn-lg">Click For More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--TEAM SECTION-->
+
+    <section id="team" class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Our Team</h2>
+              <div
+                class="bg-warning sv style1"
+              ></div><br>
+              <p>
+                Our Awesome Team Members with Excellent Portfolio.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  src="img/pic3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+                <h3 class="card-title py-2">Onyezere Joshua</h3>
+                <h6 class="nav-link disabled">CEO/ SENIOR TECHNICIAN</h6>
+                <p class="card-text">
+                  Mr Onyezere Joshua is the C.E.O and senior technician of Ifeygrace Electromec global. He has over seven years of working experience and has worked in over 5 state in Nigeria.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  src="img/pic3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+                <h3 class="card-title py-2">Ernest Shaibu</h3>
+                <h6 class="nav-link disabled">CMS/MANAGEMENT SUPERVISOR</h6>
+                <p class="card-text">
+                  Mr Ernest Shaibu is the Management supervisor of the company who is also well experienced in his field and has over 7 years of working experience.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  src="img/pic3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+                <h3 class="card-title py-2">Onyezere Daniel</h3>
+                <h6 class="nav-link disabled">GENERAL MANAGER/ I.T PERSONNEL</h6>
+                <p class="card-text">
+                  Mr Onyezere Daniel is the General Manager of the company and also the I.T personnel manager. He is well experienced in his field. Check out his  amazing social handles. 
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img
+                  src="img/pic3.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle"
+                />
+                <h3 class="card-title py-2">Mohammed Yahaya</h3>
+                <h6 class="nav-link disabled">FIELD TECHNICIAN</h6>
+                <p class="card-text">
+                  Mr Mohammed Yahaya is the field technician of the Company who has worked in over 15 state in Nigeria and has a good work record of expertise.
+                </p>
+                <p class="socials">
+                  <i class="bi bi-twitter text-dark mx-1"></i>
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                  <i class="bi bi-instagram text-dark mx-1"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT SECTION-->
+
+    <section id="contact" class="contact section-padding grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-2">
+              <div
+                class="bg-warning sv style"
+              ></div>
+              <h2>Get In Touch</h2>
+              <p>Contact Us for any of our services.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-11 m-auto">
+            <div class="row">
+              <div class="col-lg-3 py-3">
+                <h5>Location</h5>
+                <p>4, Jesufemi Street Olorunishola Ayobo,Lagos.</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5>Phone</h5>
+                <p>09063229260</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5>Email</h5>
+                <p>ifeygraceelectromecco@gmail.com</p>
+              </div>
+              <div class="col-lg-3 py-3">
+                <h5>Whatsapp Number</h5>
+                <p>09063229260 / 07082156396</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-warning">Sign in</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--FOOTER SECTION -->
+
+    <footer class="bg-dark p-2 text-center">
+      <div class="container">
+        <p class="text-white">MOTTO: GOD'S GRACE ABIDES FOREVER</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
