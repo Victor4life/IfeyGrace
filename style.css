@@ -103,6 +103,9 @@ body {
   .about-text {
     padding-bottom: 5%;
   }
+  .style1 {
+    transform: translate(530px);
+  }
 }
 @media only screen and (max-width: 767px) {
   .navbar-nav {
@@ -132,6 +135,9 @@ body {
   .carousel-item {
     height: 90vh;
     min-height: 200px;
+  }
+  .style1 {
+    transform: translate(530px);
   }
 }
 
@@ -307,19 +313,4 @@ body {
   font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
-}
-/***********NEW STORE**************/
-.store2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #250821;
-}
-.blob {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: #fff;
 }
