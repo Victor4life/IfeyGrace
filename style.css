@@ -103,7 +103,7 @@ body {
     transform: translate(320px) !important;
   }
   .new-img {
-    height: 100px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -147,7 +147,7 @@ body {
     outline: none;
   }
   .new-img {
-    height: 100px;
+    height: 50px;
   }
 }
 
