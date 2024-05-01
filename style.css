@@ -102,6 +102,9 @@ body {
   .style1 {
     transform: translate(320px) !important;
   }
+  .new-img {
+    height: 80%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .navbar-nav {
@@ -142,6 +145,9 @@ body {
     margin: auto;
     border: none;
     outline: none;
+  }
+  .new-img {
+    height: 80%;
   }
 }
 
