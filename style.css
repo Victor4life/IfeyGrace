@@ -147,7 +147,7 @@ body {
     outline: none;
   }
   .new-img {
-    height: 50px !important;
+    height: 0px !important;
   }
 }
 
