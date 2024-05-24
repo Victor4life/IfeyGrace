@@ -665,21 +665,21 @@ Our general construction services encompass a wide range of projects, from resid
           </div>
         </div>
 
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" />
+        <form onsubmit="emailSend(); reset(); return false;" class="row g-3">
+                    <div class="col-md-6">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name"required/>
           </div>
           <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" />
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required/>
           </div>
           <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
+            <label for="address" class="form-label">Address</label>
             <input
               type="text"
               class="form-control"
-              id="inputAddress"
+              id="address"
               placeholder="1234 Main St"
             />
           </div>
@@ -694,7 +694,7 @@ Our general construction services encompass a wide range of projects, from resid
           </div>
           <div class="col-md-6">
             <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity" />
+            <input type="text" class="form-control" id="inputCity"  required/>
           </div>
           <div class="col-md-4">
             <label for="inputState" class="form-label">State</label>
@@ -704,19 +704,19 @@ Our general construction services encompass a wide range of projects, from resid
             </select>
           </div>
           <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip" />
+            <label for="phone" class="form-label">Phone</label>
+            <input type="number" class="form-control" id="phone" />
           </div>
           <div class="col-12">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck" />
               <label class="form-check-label" for="gridCheck">
-                Check me out
+                Check
               </label>
             </div>
           </div>
           <div class="col-12">
-            <button type="submit" class="btn btn-warning">Sign in</button>
+            <button type="submit" class="btn btn-warning">Submit</button>
           </div>
         </form>
       </div>
@@ -735,5 +735,9 @@ Our general construction services encompass a wide range of projects, from resid
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="formscript.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+</script>
   </body>
 </html>
