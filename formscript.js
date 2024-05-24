@@ -13,5 +13,11 @@ function emailSend() {
     From: "emekav233@gmail.com",
     Subject: "This is the subject",
     Body: messageBody,
-  }).then((message) => alert(message));
+  }).then((message) => {
+    if (message == "OK") {
+      swal("Done", "You clicked the button!", "success");
+    } else {
+      swal("Error", "You clicked the button!", "error");
+    }
+  });
 }
