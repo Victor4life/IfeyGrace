@@ -351,6 +351,7 @@ body {
     border-radius: 60% 40% 30% 70%/50% 30% 70% 40%;
   }
 }
+/***************SHOP SLIDER***************/
 .slider-wrapper {
   position: relative;
 }
@@ -461,4 +462,67 @@ body {
   .slider-scrollbar .scrollbar-thumb {
     width: 20%;
   }
+}
+/***********************TEAM SLIDER SECTION*******************/
+.containerr {
+  margin: 0 20px;
+  position: relative;
+}
+.team-cardd {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+.team-cardd img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.team-cardd h3 {
+  margin-bottom: 5px;
+}
+.team-cardd p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #666;
+  word-wrap: break-word;
+}
+.team-slider-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.team-slider-controls button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.team-slider-controls button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+.team-slider-controls .prevv-btn:before {
+  border-right: 12px solid #fff;
+}
+.team-slider-controls .nextt-btn:before {
+  border-left: 12px solid #fff;
 }
