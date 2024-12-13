@@ -126,6 +126,7 @@ body {
   }
   .about-text {
     padding-bottom: 5%;
+    text-align: center;
   }
   .card {
     margin-bottom: 30px;
