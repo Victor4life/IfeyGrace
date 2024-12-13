@@ -109,42 +109,67 @@ body {
 @media only screen and (max-width: 767px) {
   .navbar-nav {
     text-align: center;
+    padding: 10px 0;
   }
+
   .carousel-caption h1 {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
   }
+
   .carousel-caption a {
-    padding: 10px 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
   }
+
   .carousel-caption p {
-    width: 100%;
-    line-height: 1.6;
-    font-size: 17px;
-  }
-  .about-text {
-    padding-bottom: 5%;
-    text-align: center;
-  }
-  .card {
-    margin-bottom: 30px;
-  }
-  .carousel-item {
-    height: 70vh;
-    min-height: auto;
-  }
-  .style1 {
+    width: 90%;
+    line-height: 1.8;
+    font-size: 16px;
     margin: 0 auto;
   }
-  .btn1 {
-    border-radius: 60px;
-    width: 40% !important;
+
+  .about-text {
     text-align: center;
-    margin: auto;
+    padding: 20px;
+  }
+
+  .card {
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+
+  .carousel-item {
+    height: 80vh;
+    min-height: 300px;
+  }
+
+  .style1 {
+    margin: 15px auto;
+    padding: 0 15px;
+  }
+
+  .btn1 {
+    border-radius: 30px;
+    width: 60% !important;
+    text-align: center;
+    margin: 15px auto;
     border: none;
     outline: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
   }
+
   .new-img {
-    height: 0px !important;
+    height: auto !important;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
