@@ -114,9 +114,9 @@ body {
 
   .carousel-caption {
     position: absolute;
-    top: 30%;
+    top: 35%;
     transform: translateY(-50%);
-    bottom: 30%;
+    bottom: 35%;
     padding-bottom: 0;
   }
 
